@@ -40,5 +40,5 @@ After we were satisfied with the format of our dataframes, they were loaded into
 # Conclusion
 The goal(s) of the project were completed successfully. The objective was not to perform an analysis on the data itself, but rather to prepare said data in such a way that an analysis would not be limited by any inconsistencies or formatting errors based on how the data is stored. With these datasets having gone through the ETL process, they are potentially ready for an analysis. We specifically chose datasets relevant to our city instead of the data readily available on Kaggle as we do plan to use it in a future collaboration together!  The most challenging part of this process was finding data that was going to be viable for this project as well as the future project that would require a significant amount of data so that visualizations and correlations could be used.  
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+We did try to include screenshots of the databases we created to show our progress, however, when pushing the data, it exceeded the Github file limit (ours was 196, limit is 100, so it was not possible to get screenshots to share in this process write up).
 
