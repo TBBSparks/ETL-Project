@@ -35,7 +35,7 @@ We continued to clean our tables by removing data that we did not feel would be 
 At this point we were ready to connect our databases.  
 
 # Load
-After we were satisfied with the format of our dataframes, they were loaded into tables in Postgres (pgAdmin4) by forming a connection to the jupyter notebook through the creation of an engine (ORM). This involved creating tables in PostgreSQL that we can load our data into using Pandas. Each table is assigned a primary key (typically id) for relational purposes. We created tables with the number and names of columns present in the dataframes we previously created.
-_______________________________________________________________________
+After we were satisfied with the format of our dataframes, they were loaded into SQLite.  Due to the volume of data, SQLite was ideal for it's convienience and speed with larger datasets over PGAdmin.  As this was a new process for us, we ran a query to ensure it was functioning as we intended it to. The data was successfully connected, but we ran into an index issue 
+
 # Conclusion
 The goal(s) of the project were completed successfully. The objective was not to perform an analysis on the data itself, but rather to prepare said data in such a way that an analysis would not be limited by any inconsistencies or formatting errors based on how the data is stored. With these datasets having gone through the ETL process, they are potentially ready for an analysis. We specifically chose datasets relevant to our city instead of the data readily available on Kaggle as we do plan to use it in a future collaboration together!  The most challenging part of this process was finding data that was going to be viable for this project as well as the future project that would require a significant amount of data so that visualizations and correlations could be used.  
